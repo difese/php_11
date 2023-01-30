@@ -1,0 +1,16 @@
+# Editor directories and files
+
+/task11.7
+/css/style.css
+/images/scale.ico
+
+index.html
+
+.idea
+.vscode
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

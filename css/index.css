@@ -1,0 +1,121 @@
+body {
+  min-width: 1111px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightslategray;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 10px auto;
+  letter-spacing: .3rem;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: dimgray;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: .11rem;
+  border: 5px solid darkslategray;
+}
+
+caption {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  margin: 5px auto;
+}
+
+th {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  background-color: darkslategray;
+}
+
+td, th {
+  padding: 5px 10px;
+  min-height: 20px;
+  text-align: center;
+  border: 2px dashed transparent;
+}
+
+td:hover {
+  background-color: darkgray;
+  border: 2px solid darkslategray;
+  font-weight: 600;
+  /* color: black; */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: gray;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  border-top: 2px solid darkslategray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logical {
+  width: 60%;
+}
+
+.comparison {
+  width: 66%;
+}
+
+.a, .not_a {
+  font-weight: 500;
+  color: darkgreen;
+  /* background-color: dimgray; */
+}
+
+.b {
+  font-weight: 500;
+  /* color: saddlebrown; */
+}
+
+.first {
+  background-color:gray;
+}
+
+.loose {
+  color: navy;
+  font-weight: 500;
+}
+
+.strict {
+  color: darkred;
+  font-weight: 500;
+}
+
+.conclusion {
+  width: 65%;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  list-style-type: none;
+}
+
+.advice {
+  text-decoration: line-through;
+}
